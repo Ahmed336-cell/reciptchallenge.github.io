@@ -1,0 +1,104 @@
+html{
+    background-color:hsl(30, 54%, 90%);
+}
+body{
+    background-color: white;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom:10px;
+
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Young Serif', serif;
+}
+h2,h4{
+    color:  hsl(332, 51%, 32%);
+    font-family: 'Young Serif', serif;
+    margin-left: 15px;
+}
+
+p{
+font-size: 12px;
+font-family: 'Outfit';
+margin-left: 16px;
+color: gray;
+margin-top: -5px;
+}
+
+.prep-container{
+    margin-top: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+li{
+    font-family: 'Outfit';
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: -10px;
+    font-size: 15px;
+    
+}
+li::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+ul{
+    margin-top: -10px;
+    color: #000;
+    
+}
+hr{
+    display: flex;
+    border: 1px solid #eee;
+    width: 100%;
+}
+
+.nutrition-table {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.nutrition-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+
+.nutrition-row:last-child {
+    border-bottom: none;
+}
+
+.nutrition-label {
+    color: #7e7d7a;
+    font-weight: 500;
+}
+
+.nutrition-value {
+    color: #7e3c22;
+    font-weight: 700;
+}
+
+.highlight {
+    font-style: italic;
+}
